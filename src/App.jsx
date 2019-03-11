@@ -1,9 +1,8 @@
 // @flow
 
 import React from 'react';
-import { StyleSheet, css } from 'aphrodite';
+import { css, StyleSheet } from 'aphrodite';
 import Curriculum from './components/Curriculum';
-import Footer from './components/Footer';
 import Legend from './components/Legend';
 
 const style = StyleSheet.create({
