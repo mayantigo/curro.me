@@ -1,0 +1,15 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["airbnb", "prettier", "plugin:flowtype/recommended"],
+  "plugins": ["prettier", "flowtype"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": ["error"]
+  }
+}
