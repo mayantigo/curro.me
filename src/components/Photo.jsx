@@ -7,12 +7,18 @@ type PhotoType = {
   url: string,
 };
 
-const style = StyleSheet.create({
-  Photo: {
-    backgroundColor: 'blue',
-  },
-});
-
 export default function Photo({ url }: PhotoType) {
-  return <img className={css(style.Photo)} src={url} alt="Profile" />;
+  return (
+    <img
+      className={css(
+        StyleSheet.create({
+          Photo: {
+            backgroundColor: 'blue',
+          },
+        }),
+      )}
+      src={url}
+      alt="Profile"
+    />
+  );
 }
