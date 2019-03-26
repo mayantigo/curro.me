@@ -15,7 +15,7 @@ export default function Photo({ url }: PhotoType) {
           Photo: {
             backgroundColor: 'blue',
           },
-        }),
+        }).Photo,
       )}
       src={url}
       alt="Profile"
