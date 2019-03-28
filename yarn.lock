@@ -1321,8 +1321,8 @@ anymatch@^2.0.0:
 
 aphrodite@^2.3.1:
   version "2.3.1"
-  resolved "https://artifactory.barceloviajes.com/artifactory/api/npm/npm-release/aphrodite/-/aphrodite-2.3.1.tgz#376b9964c8742218fd10b8b82786f9d22e650e41"
-  integrity sha1-N2uZZMh0Ihj9ELi4J4b50i5lDkE=
+  resolved "https://registry.yarnpkg.com/aphrodite/-/aphrodite-2.3.1.tgz#376b9964c8742218fd10b8b82786f9d22e650e41"
+  integrity sha512-hwRxpYarrHLRti62RlWplK3A1bDkh4dw5jjDh4Xvra6z45B5yx9Rqsiaw3duELCI/FLOYxlxVe1bysRpIw5X1Q==
   dependencies:
     asap "^2.0.3"
     inline-style-prefixer "^5.0.4"
@@ -8337,7 +8337,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.14.3:
+prettier@^1.16.4:
   version "1.16.4"
   resolved "https://artifactory.barceloviajes.com/artifactory/api/npm/npm-release/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
   integrity sha1-c+N+c+AYrS25x2dC4mR+IXkMlxc=
