@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import type { Item } from './LegendItem';
-import LegendItem from './LegendItem';
+import type { Item } from '../LegendItem/LegendItem';
+import LegendItem from '../LegendItem';
 
 export type Section = {
   title: string,

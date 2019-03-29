@@ -1,9 +1,9 @@
 // @flow
 
 import React from 'react';
-import Photo from './Photo';
-import type { Section } from './LegendSection';
-import LegendSection from './LegendSection';
+import Photo from '../Photo/Photo';
+import type { Section } from '../LegendSection/LegendSection';
+import LegendSection from '../LegendSection';
 
 export type LegendContent = {
   portrait: string,
