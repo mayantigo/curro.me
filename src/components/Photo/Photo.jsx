@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { StyleSheet, css } from 'aphrodite/typings';
+import { StyleSheet, css } from 'aphrodite';
 
 type PhotoType = {
   url: string,
